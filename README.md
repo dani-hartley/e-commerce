@@ -1,6 +1,8 @@
 # E-commerce Back End
 
 ## Description 
+An application that access an e-commerce database through different routes.  
+In order to view, create, update, and delete the category, porduct or tags that are currently stored within the database.
 
 ## User Story
 
@@ -27,10 +29,10 @@ THEN I am able to successfully create, update, and delete data in my database
 1. Clone e-commerce repository
 2. Run <code> npm install </code> to install dependencies
     - Ensure you have the following dependencies
-        a. Express.js
-        b. dotenv
-        c. mysql2
-        d. sequelize
+        a. Express.js  
+        b. dotenv  
+        c. mysql2  
+        d. sequelize  
 3. Run <code> mysql -u root -p </code> to initialize mysql
 4. Run <code> source db/schema.sql </code> to reset database 
     - Run <code> exit </code> to leave mysql
@@ -41,5 +43,16 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Usage
 
 ### Video
+*[Video of User Experience](https://drive.google.com/file/d/1F67tc5uUpLg0jmq-2jpuz1LNb02oe4rs/view)
+
+![Walkthrough Video](./assets/walkthrough.gif)
 
 ### Screenshots
+
+![Setting up the database](https://user-images.githubusercontent.com/79660405/122655531-938f6280-d118-11eb-8893-738ef4b7d0cc.png)
+
+![Seeding the database](https://user-images.githubusercontent.com/79660405/122655560-d3564a00-d118-11eb-9a87-e3e661239ad7.png)
+
+![Connecting server](https://user-images.githubusercontent.com/79660405/122655582-fb45ad80-d118-11eb-8760-02b2baf6b0fb.png)
+
+![Insomenia route setup](https://user-images.githubusercontent.com/79660405/122655699-051be080-d11a-11eb-82bc-c7f859f3a718.png)
